@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/svg+xml" href="/vite.svg" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script defer src="../../lib/police.js"></script>
+
+		<title>Корзина</title>
+		<link rel="stylesheet" href="../../style.css" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+		/>
+	</head>
+	<body>
+		<div class="container">
+			<header></header>
+			<dialog>
+				<div class="category_two">
+					<span>Категории товаров</span>
+					<div class="category_span">
+						<span class="beauty">Красота</span>
+						<span class="fragrances">Духи</span>
+						<span class="furniture">Мебель</span>
+						<span class="groceries">Продукты</span>
+					</div>
+				</div>
+			</dialog>
+			<div class="backdrop"></div>
+			<div class="nothing">
+				<img src="/nothing_for_bin.png" alt="nothing" />
+				<span class="nothing_text">В корзине пока нет товаров</span>
+				<span class="nothing_text2"
+					>Начните с подборок на главной странице или найдите нужный товар через
+					поиск</span
+				>
+				<button class="btn_page">На главную</button>
+			</div>
+
+			<div class="box_korzina">
+				<h1>Ваша корзина, <b class="lenght_product"> 1 товар</b></h1>
+
+				<div class="products_choose">
+					<div class="product1">
+						<div class="first_product">
+							<div class="Select">
+								
+								<span class="Selectspan">Снять все</span>
+							</div>
+							<div class="info_dalevery">
+								<span class="data_dalevery">Ближайшая дата доставки:</span>
+								<span class="data_dalevery2">24 октября</span>
+							</div>
+						</div>
+						<div class="products_place"></div>
+						<!-- <div class="inproduct">
+							<div class="info_inproduct">
+								<span class="inbaza">На складе Uzum Market</span>
+								<span class="dalevery_inproduct">Доставим 21 октября</span>
+							</div>
+							<div class="info_product2">
+								<div class="sel">
+									<input
+										id="Select all3672"
+										type="checkbox"
+										name="Select all"
+										data-test-id="checkbox__select"
+										value=""
+										class="Selectall"
+									/>
+								</div>
+								<div class="img_inproduct">
+									<img src="/public/nothing.png" alt="" />
+								</div>
+								<div class="bio_inproduct">
+									<span class="title_inproduct"
+										>Телевизор Artel 32KH5500 HD Android TV 11.0, Wi-Fi,
+										Bluetooth</span
+									>
+									<div class="bio_inproduct2">
+										<span class="salary">Продавец: Artel Brand Shop</span>
+										<div class="counter">
+											<button class="btn" id="mines">-</button>
+											<span id="counterValue">1</span>
+											<button class="btn" id="plus">+</button>
+										</div>
+									</div>
+								</div>
+								<div class="remove_product">
+									<button class="delete"><img src="/delete.svg" alt="">Удалить</button>
+									<span class="price_inproduct">1 690 000 сум</span>
+									<span class="sale_inproduct">3 030 000 сум</span>
+								</div>
+							</div> 
+							
+						</div> -->
+					</div>
+					<div class="product2">
+						<span style="font-size: 16px; color: #1f2026; font-weight: 500"
+							>Ваш заказ</span
+						>
+						<div class="product_price">
+							<span>Товары (1):</span>
+							<span class="sale_sale">16 000 сум</span>
+						</div>
+						<span class="delivery_day">Доставка 24 октября</span>
+						<div class="overall_price">
+							<span style="font-size: 0.875rem">Итого:</span>
+							<span style="font-size: 20px" class="full_price">13 000 сум</span>
+						</div>
+
+						<button class="btn_zakaz">Перейти к оформлению</button>
+					</div>
+				</div>
+			</div>
+
+			<div class="end_bio">
+				<div class="about_us">
+					<span class="about_1">О нас</span>
+					<a href="https://uzum.uz/ru/about/delivery-points">Пункты выдачи</a>
+					<a href="https://uzum.uz/ru/about/careers">Вакансии</a>
+				</div>
+				<div class="user">
+					<span>Пользователям</span>
+					<a href="https://uzum.uz/ru#contacts">Связаться с нами</a>
+					<a href="https://uzum.uz/ru/faq">Вопрос - Ответ</a>
+				</div>
+				<div class="for_person">
+					<span>Для предпринимателей</span>
+					<a href="https://seller.uzum.uz/">Продавайте на Uzum</a>
+					<a href="https://seller.uzum.uz/seller/signin">Вход для продавцов</a>
+				</div>
+				<div class="apps">
+					<span>Скачать приложение</span>
+					<div class="apps_save">
+						<img src="/googleplay.svg" alt="google_play" />
+						<span>Google Play</span>
+						<img src="/apple.svg" alt="app store" />
+						<span>AppStore</span>
+					</div>
+
+					<span>Uzum в соцсетях</span>
+					<div class="social">
+						<img src="/instagram.svg" alt="instagram" />
+						<img src="/telegram.svg" alt="telegram" />
+						<img src="/facebook.svg" alt="facebook" />
+						<img src="/youtube.svg" alt="youtube" />
+					</div>
+				</div>
+			</div>
+
+			<div class="litenziya">
+				<a href="">Соглашение о конфиденциальности</a>
+				<a href="">Пользовательское соглашение</a>
+				<span
+					>«2024© ООО «UZUM MARKET». ИНН 309376127. Все права защищены»</span
+				>
+			</div>
+		</div>
+
+		<script type="module" src="index.js"></script>
+	</body>
+</html>
